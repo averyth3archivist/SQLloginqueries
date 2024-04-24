@@ -33,23 +33,21 @@ security incident after business hours
 ![alt text][figure4]
 
 [figure4]: https://github.com/averyth3archivist/SQLloginqueries/blob/7f416af7f8f001fb9868ca8ff8764db7893d147d/SQLfilters_Figure4.png "Figure 4"
-*Figure 4. *
+***Figure 4.***
+
 ### Retrieve employees in Finance or Sales
-
-
-
 ![alt text][figure5]
 
 [figure5]: https://github.com/averyth3archivist/SQLloginqueries/blob/7f416af7f8f001fb9868ca8ff8764db7893d147d/SQLfilters_Figure5.png "Figure 5"
-Figure 5.
+***Figure 5.***
 
 ### Retrieve all employees not in IT
 ![alt text][figure6]
 
 [figure6]: https://github.com/averyth3archivist/SQLloginqueries/blob/7f416af7f8f001fb9868ca8ff8764db7893d147d/SQLfilters_Figure6.png "Figure 6"
+***Figure 6.***
 
-Figure 6.
-Summary
-[Add content here.]
+### Summary
+
 
 
