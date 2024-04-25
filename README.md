@@ -3,7 +3,7 @@
 ## Apply filters to SQL Queries (Portfolio Project from Google Cybersecurity Professional Certificate)
 
 ### Project description
-I am a security professional at a large organization. After discovering some potential security issues that involve login attempts and employee machines, I decided to examine the organization's database, using SQL filters to retrieve relevant records for further investigation. The database runs on MariaDB and the table format is detailed [here](https://github.com/averyth3archivist/SQLloginqueries/blob/38de08f19ad6839bbb0ced8246772bc69576bf04/Employee%20Log-in%20SQL%20Table%20Format.docx).
+I am a security professional at a fictitious large organization. After discovering some potential security issues that involve login attempts and employee machines, I decided to examine the organization's database, using SQL filters to retrieve relevant records for further investigation. The database runs on MariaDB and the table format is detailed [here](https://github.com/averyth3archivist/SQLloginqueries/blob/38de08f19ad6839bbb0ced8246772bc69576bf04/Employee%20Log-in%20SQL%20Table%20Format.docx).
 
 ### 1. Retrieve after hours failed login attempts
 A security incident after business hours occurred after business hours. Therefore, I needed to query all after hours login attempts that failed. **Figure 1** demonstrates how I created a SQL query to filter for this criteria. In my query, I selected all the data from ```log_in_attempts``` table and used a ```WHERE``` caluse with an ```AND``` operator to filter my results using two conditions. The first --- login attempts that occurred after 18:00 -> ```login_time > '18:00;``` and the second, ```success = FALSE```, which filters for failed login attempts.
